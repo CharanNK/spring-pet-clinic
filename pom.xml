@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <packaging>pom</packaging>
     <modules>
         <module>pet-clinic-data</module>
@@ -47,6 +47,7 @@
     <scm>
         <url>https://github.com/CharanNK/spring-pet-clinic</url>
         <connection>scm:git:https://github.com/CharanNK/spring-pet-clinic.git</connection>
+    <tag>spring-pet-clinic-0.0.3</tag>
   </scm>
 
 </project>
