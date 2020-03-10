@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <name>spring-pet-clinic</name>
     <description>Pet clinic web application</description>
 
@@ -42,6 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:CharanNK/spring-pet-clinic.git</developerConnection>
-    </scm>
+      <tag>spring-pet-clinic-0.0.3</tag>
+  </scm>
 
 </project>
