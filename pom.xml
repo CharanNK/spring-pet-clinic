@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>spring-pet-clinic</artifactId>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>pet-clinic-data</module>
@@ -12,9 +15,7 @@
         <version>2.2.5.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.3</version>
+
     <name>spring-pet-clinic</name>
     <description>Pet clinic web application</description>
 
@@ -41,7 +42,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:CharanNK/spring-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/CharanNK/spring-pet-clinic.git</developerConnection>
       <tag>spring-pet-clinic-0.0.3</tag>
   </scm>
 
