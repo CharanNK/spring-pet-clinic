@@ -1,4 +1,4 @@
 package com.example.springpetclinic.model;
 
-public class Clinic {
+public class BaseEntity {
 }
