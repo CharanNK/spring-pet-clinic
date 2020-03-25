@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.HashSet;
 import java.util.Set;
 
 public class Owner extends Person {
@@ -17,7 +18,7 @@ public class Owner extends Person {
 
     protected String lastName;
 
-    private Set<Pet> pets;
+    private Set<Pet> pets = new HashSet<>();
 
     public String getAddress() {
         return address;
